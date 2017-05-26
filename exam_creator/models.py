@@ -1,5 +1,10 @@
 from django.db import models
 
+
+class Topic(models.Model):
+    topic_name = models.CharField(max_length=100)
+    book_section = models.CharField(max_length=100)
+
 # Create your models here.
 class Question(models.Model):
     latex = models.TextField()
@@ -8,7 +13,3 @@ class Question(models.Model):
     topics = models.ManyToManyField(Topic)
 
 
-
-class Topic(models.Model):
-    topic_name = models.CharField(max_length=100)
-    book_section = models.CharField(max_length=100)
