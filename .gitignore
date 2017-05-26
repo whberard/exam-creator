@@ -1,0 +1,7 @@
+db.sqlite3
+etc
+exam/__init__.py
+exam/__pycache__
+exam/wsgi.py
+*.pyc
+*.swp 
