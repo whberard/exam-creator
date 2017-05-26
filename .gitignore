@@ -5,3 +5,4 @@ exam/__pycache__
 exam/wsgi.py
 *.pyc
 *.swp 
+exam_creator/migrations
