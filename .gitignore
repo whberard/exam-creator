@@ -6,3 +6,4 @@ exam/wsgi.py
 *.pyc
 *.swp 
 exam_creator/migrations
+*.log
